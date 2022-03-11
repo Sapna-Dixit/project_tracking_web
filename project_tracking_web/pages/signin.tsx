@@ -28,7 +28,7 @@ const SignIn = () => {
               <div className="w-auto"></div>
               <div className=' flex justify-center items-center flex-grow'>
                 <div className='w-9/12 m-auto flex justify-center'>
-                  <Images sr={signIn} />
+                  <Images sr={signIn} alt='logo' />
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ const SignIn = () => {
                 <div className='w-full'>
                   <div className='flex justify-center'>
                     <div className='w-28'>
-                      <Images sr={logo} />
+                      <Images sr={logo}  alt='logo'/>
                     </div>
                   </div>
                   <Form onSubmit={props.handleSubmit}>
@@ -86,13 +86,13 @@ const SignIn = () => {
                     </p>
                   </div>
                   <div className='mt-2 flex w-full justify-center'>
-                    <Button name="Sign In" type="submit"/>
+                    <Button btn="Sign In" type="submit"/>
                   </div>
                   </Form>
                   <div className="flex items-center justify-center gap-4 mt-10">
-                    <Images sr={facebook} />
-                    <Images sr={google} />
-                    <Images sr={git} />
+                    <Images sr={facebook} alt='logo'/>
+                    <Images sr={google} alt='logo'/>
+                    <Images sr={git} alt='logo' />
                   </div>
                   <div className='flex items-center justify-center mt-3  text-sm text-black font-semibold hover:underline '>
                     <Content value="Don't have account ? SignUp" />

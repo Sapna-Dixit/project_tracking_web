@@ -24,7 +24,7 @@ const SignUp = () => {
             <div className="w-auto"></div>
             <div className=' flex justify-center items-center flex-grow'>
               <div className='w-9/12 m-auto flex justify-center'>
-                <Images sr={signUp} />
+                <Images sr={signUp} alt='logo' />
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const SignUp = () => {
               <div className='w-full'>
                 <div className='flex justify-center'>
                   <div className='w-28'>
-                    <Images sr={logo} />
+                    <Images sr={logo} alt='logo'/>
                   </div>
                 </div>
                 <Form onSubmit={props.handleSubmit}>
@@ -101,7 +101,7 @@ const SignUp = () => {
                       />
                   </div>
                 <div className='mt-2 flex w-full justify-center'>
-                  <Button name="Sign Up" type="submit"/>
+                  <Button btn="Sign Up" type="submit"/>
                 </div>
                 </Form>
                 <div className='flex items-center justify-center mt-3  text-sm text-black font-semibold hover:underline '>
